@@ -1,7 +1,6 @@
-/* Селектор по тегу */
 body {
-    background-color: #fdf5e6; /* Цвет старой бумаги */
-    font-family: "Times New Roman", Times, serif; /* Классический книжный шрифт */
+    background-color: #fdf5e6; 
+    font-family: "Times New Roman", Times, serif; 
     color: #2b2b2b;
     line-height: 1.6;
     margin: 0;
@@ -13,13 +12,13 @@ h1, h2 {
     color: #4a2511;
 }
 
-/* Селектор по классу */
+
 .container {
     width: 80%;
     margin: 20px auto;
     background-color: #fffaf0;
     padding: 30px;
-    border: 2px dashed #8b4513; /* Рамка в стиле вырезки из газеты */
+    border: 2px dashed #8b4513; 
     box-shadow: 5px 5px 15px rgba(0,0,0,0.1);
 }
 
@@ -50,7 +49,6 @@ h1, h2 {
     border-left: 5px solid #8b4513;
 }
 
-/* Оформление картинок */
 .article-image {
     display: block;
     margin: 15px auto;
@@ -59,7 +57,6 @@ h1, h2 {
     max-width: 400px;
 }
 
-/* Таблица и выравнивание (по заданию) */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -76,12 +73,10 @@ th {
     background-color: #e8d8c8;
 }
 
-/* Селекторы классов для выравнивания */
 .align-left { text-align: left; }
 .align-center { text-align: center; }
 .align-right { text-align: right; }
 
-/* Селектор по ID */
 #footer {
     text-align: center;
     font-size: 14px;
