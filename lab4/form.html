@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Предложить анекдот</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Отправить свой анекдот нам</h1>
+        <div class="menu">
+            <a href="index.html" class="menu__link">Главная</a>
+            <a href="jokes.html" class="menu__link">Короткие анекдоты</a>
+            <a href="long.html" class="menu__link">История про записку</a>
+            <a href="rating.html" class="menu__link">Рейтинг тем</a>
+            <a href="form.html" class="menu__link menu__link--active">Предложить анекдот</a>
+        </div>
+
+        <form id="jokeForm" class="joke-form">
+            <div class="joke-form__group">
+                <label for="AuthorName">Ваше имя:</label>
+                <input type="text" id="AuthorName" class="joke-form__input" placeholder="Иван" required>
+            </div>
+
+            <div class="joke-form__group">
+                <label for="category">Тематика анекдота:</label>
+                <select id="category" class="joke-form__input">
+                    <option value="Программисты">Программисты и IT</option>
+                    <option value="Штирлиц">Про Штирлица</option>
+                    <option value="Рыбалка">Зимняя рыбалка</option>
+                    <option value="Другое">Другое</option>
+                </select>
+            </div>
+
+            <div class="joke-form__group">
+                <label for="Joke">Ваш СМЕШНОЙ анекдот:</label>
+                <textarea id="Joke" class="joke-form__input" rows="4" placeholder="Напишите текст здесь..." required></textarea>
+            </div>
+
+            <div class="joke-form__checkbox">
+                <input type="checkbox" id="agree" required>
+                <label for="agree">Готов, что надо мной будут смеяться</label>
+            </div>
+
+            <button type="submit" class="joke-form__button">Отправить</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
